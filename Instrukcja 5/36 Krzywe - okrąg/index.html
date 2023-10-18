@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    canvas {
+      border: 1px dashed black;
+    }
+  </style>
+
+  <script>
+    window.onload = function() {
+      var canvas = document.getElementById("drawingCanvas");
+      var context = canvas.getContext("2d");
+
+      // Tworzy zmienne, które przechowają parametry łuku.
+      var centerX = 250;
+      var centerY = 150;
+      var radius = 100;
+      var startingAngle = 1.25 * Math.PI;
+      var endingAngle = 5 * Math.PI;
+
+      // Wykorzystuje podane wyżej parametry do narysowania łuku.
+      context.arc(centerX, centerY, radius, startingAngle,
+              endingAngle);
+      context.stroke();
+    }
+  </script>
+</head>
+<body>
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>

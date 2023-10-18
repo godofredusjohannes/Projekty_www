@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: mediumpurple;
+    color: lightblue;
+    text-align: center;
+    height: 90px;
+}
+
+nav {
+    background-color: blueviolet;
+    color: lightblue;
+    padding: 30px;
+}
+
+a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+article {
+    background-color: darkorchid;
+    color: lightblue;
+    width: 70%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+}
+
+aside {
+    background-color: lightseagreen;
+    color: lawngreen;
+    width: 30%;
+    float: left;
+    height: 200px;
+    padding: 30px;
+}
+
+footer {
+    background-color: blue;
+    color: lightseagreen;
+    text-align: center;
+}
+
+section {
+    border: 1px solid blue;
+    height: 100px;
+}

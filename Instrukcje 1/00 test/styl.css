@@ -1,0 +1,30 @@
+body {
+    background-color: rgba(52, 44, 44, 0.52);
+    color: #000000;
+    font-family: "Comic Sans MS";
+    text-align: center;
+}
+
+header {
+    background-color: #2a2d2d;
+    text-align: center;
+    margin: 50px;
+    padding: 20px;
+}
+section {
+    font-family: "Bookman Old Style";
+    padding: 5px;
+}
+section2 {
+    color: #ffffff;
+}
+section3 {
+    color: #ff0000;
+}
+img {
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 50%;
+}

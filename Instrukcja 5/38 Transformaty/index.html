@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    canvas {
+      border: 1px dashed black;
+    }
+  </style>
+
+  <script>
+    window.onload = function() {
+      var canvas = document.getElementById("drawingCanvas");
+      var context = canvas.getContext("2d");
+
+      // Rysuje kwadrat o rozmiarach 30 x 30 pikseli w trzech miejscach.
+      context.rect(0, 0, 30, 30);
+      context.rect(50, 50, 30, 30);
+      context.rect(100, 100, 30, 30);
+      context.stroke();
+
+      // Rysuje kwadrat w punkcie (0, 0).
+      context.rect(0, 0, 30, 30);
+
+      // Przesuwa punkt zerowy płótna o 50 pikseli w dół i w prawo.
+      context.translate(50, 50);
+      context.rect(0, 0, 30, 30);
+
+      // Przesuwa punkt zerowy płótna odrobinę dalej. Transformaty kumulują się ze sobą.
+              // W rezultacie punkt (0, 0) według starej miary jest
+              punktem (100, 100).
+              context.translate(50, 50);
+      context.rect(0, 0, 30, 30);
+      context.stroke();
+    }
+  </script>
+</head>
+<body>
+<canvas id="drawingCanvas" width="500" height="300"></canvas>
+</body>
+</html>
