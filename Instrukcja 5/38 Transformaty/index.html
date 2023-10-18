@@ -15,9 +15,20 @@
       var context = canvas.getContext("2d");
 
       // Rysuje kwadrat o rozmiarach 30 x 30 pikseli w trzech miejscach.
+      context.fillStyle = "orange";
       context.rect(0, 0, 30, 30);
+      context.fill();
+
+      context.beginPath();
+      context.fillStyle = "green";
       context.rect(50, 50, 30, 30);
+      context.fill();
+
+      context.beginPath();
+      context.fillStyle = "blue";
       context.rect(100, 100, 30, 30);
+      context.fill();
+
       context.stroke();
 
       // Rysuje kwadrat w punkcie (0, 0).
