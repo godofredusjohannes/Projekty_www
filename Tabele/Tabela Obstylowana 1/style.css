@@ -1,0 +1,14 @@
+table {
+    width: 75%;
+    height: 100px;
+    padding: 10px;
+    margin: 15px auto 15px auto;
+    background-color: darkorchid;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    box-shadow: 5px 5px 50px grey;
+    -moz-box-shadow: 5px 5px 50px grey ;
+}
+body{
+    background-color: blue;
+}
