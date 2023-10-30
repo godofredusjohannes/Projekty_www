@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<style>
+  body {
+    background-color: aquamarine;
+    color: #2a2d2d;
+  }
+</style>
+</head>
+<body>
+<h1>Zadanie 17b - zaprojektuj własne trampki</h1>
+<h2>Autor: Seweryn Poczynek</h2>
+
+<form action="contest.php" method="post">
+<fieldset>
+  <h2>Chcesz wymienić swoje bambosze na nowe? Dobrze trafiłeś!</h2>
+
+  <fieldset>
+    <legend>Podstawowe informacje</legend>
+
+    <ul>
+      <li><label for="form-name">Imię i nazwisko:</label> <input type="text" name="username" id="form-name"></li>
+      <li><label for="form-email">E-mail:</label> <input type="email" name="emailadress" id="form-email"></li>
+      <li><label for="form-tel">Telefon:</label> <input type="tel" name="telephone" id="form-tel"></li>
+      <li><label for="form-story">Moje buty są TAKIE stare...</label><br><textarea name="story" rows="4" cols="60" maxlength="300" id="form-story" placeholder="Nie więcej niż 300 znaków"></textarea></li>
+    </ul>
+  </fieldset>
+</fieldset>
+  <h2>Zaprojektuj własne trampki:</h2>
+
+  <fieldset>
+    <legend>Własny projekt butów</legend>
+    <fieldset>
+<legend>Kolor <em>(wybierz jeden)</em>:</legend>
+<ul>
+  <li><label><input type="radio" name="color" value="red"> Czerwony</label></li>
+  <li><input type="radio" name="color" value="blue"> Niebieski</li>
+  <li><input type="radio" name="color" value="black"> Czarny</li>
+  <li><input type="radio" name="color" value="silver"> Szary</li>
+</ul>
+  </fieldset>
+
+    <fieldset>
+      <legend>Opcje <em>(możesz wybrać kilka)</em></legend>
+      <ul>
+        <li><input type="checkbox" name="features[]" value="laces"> Błyszczące sznurówki</li>
+        <li><input type="checkbox" name="features[]" value="logo" checked> Metalowe logo</li>
+        <li><input type="checkbox" name="features[]" value="heels"> Świecące podeszwy</li>
+        <li><input type="checkbox" name="features[]" value="mp3"> Odtwarzanie MP3</li>
+      </ul>
+      <fieldset>
+        <legend>Rozmiar</legend>
+        <p>Rozmiar zgodny ze standardowymi numerkami butów: <select name="size" size="1">
+          <option>37</option>
+          <option>38</option>
+          <option>39</option>
+          <option>40</option>
+          <option>41</option>
+          <option>42</option>
+          <option>43</option>
+          <option>44</option>
+          <option>45</option>
+          <option>46</option>
+          <option>47</option>
+        </select>
+        </p>
+
+      </fieldset>
+    </fieldset>
+  </fieldset>
+  <p><input type="submit"> <input type="reset" value="Wycyść pola"></p>
+</form>
+
+</body>
+</html>
