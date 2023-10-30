@@ -1,0 +1,7 @@
+body {
+    background-color: aqua;
+    color: #2a2d2d;
+}
+ol, ul {
+    list-style: none;
+}
