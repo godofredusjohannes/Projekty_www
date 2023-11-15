@@ -1,0 +1,30 @@
+#topbar {
+    color: orange;
+    text-align: center;
+    background-color: black;
+}
+
+#leftmidup {
+    background-color: rgb(128, 128, 128);
+    color: black;
+    float: left;
+    width: 50%;
+    width: 30%;
+}
+
+#leftmiddown {
+    background-color: turquoise;
+    float: left;
+}
+
+#rightmid  {
+    background-color: yellow;
+    color: black;
+    float: left;
+}
+
+#footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
