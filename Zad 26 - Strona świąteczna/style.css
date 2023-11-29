@@ -1,0 +1,36 @@
+#container {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body {
+    background-color: #cccccc;
+    font-family: Arial;
+}
+
+#header {
+    border: 4px green dashed;
+    height: 100px;
+    text-align: center;
+    padding-top: 15px;
+    margin: auto;
+    background-color: red;
+    color: green;
+    border-radius: 15px;
+}
+
+#content {
+    margin-left: 300px;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 980px;
+    height: 600px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px black solid;
+}
+
+#footer {
+    
+}
