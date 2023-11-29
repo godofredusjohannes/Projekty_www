@@ -1,11 +1,14 @@
 #container {
     width: 1200px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body {
     background-color: #cccccc;
     font-family: Arial;
+    background-image: url("bombki.png");
+    background-size: 100%;
 }
 
 #header {
@@ -20,47 +23,26 @@ body {
 }
 
 #content {
-    margin-left: 300px;
     margin-top: 5px;
-    height: 200px;
-    background-color: white;
+    height: 750px;
+    background-image: url("domek.png");
+    background-size: 100%;
     border-radius: 15px;
     border: 3px black solid;
-    margin-bottom: 5px;
     float: left;
-    width: 897px;
-    clear: both;
-    padding: 0px;
+    width: 1185px;
+    padding: 5px;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    text-align: center;
 }
 
-#sidebar {
-    background-color: #404040;
-    border: 7px #303030 solid;
-    margin-right: 920px;
-    height: 265px;
-    float: left;
-    width: 260px;
-    border-radius: 15px;
-    float: left;
-    margin-top: 5px;
-    clear: both;
-    padding: 10px;
-    text-align: center;
+
 }
 
 #footer {
     text-align: center;
     color: black;
     font-size: 20px;
-}
-
-.SBoption {
-    height: 30px;
-    padding: 10px;
-    font-size: 25px;
-    border: 2px black solid;
-    background-color: #666666;
-    border-radius: 15px;
-    width: 240px;
-    margin-top: 10px;
+    margin-top: 2px;
 }
