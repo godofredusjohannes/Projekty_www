@@ -22,13 +22,22 @@ body {
 
 #content {
     margin-left: 300px;
-    margin-right: auto;
     margin-top: 5px;
-    width: 980px;
-    height: 600px;
+    height: 2000px;
     background-color: white;
     border-radius: 15px;
-    border: 2px black solid;
+    border: 3px black solid;
+    margin-bottom: 5px;
+}
+
+#sidebar {
+    background-color: #404040;
+    border: 7px #303030 solid;
+    margin-right: 920px;
+    height: 400px;
+    float: left;
+    width: 280px;
+    border-radius: 15px;
 }
 
 #footer {
