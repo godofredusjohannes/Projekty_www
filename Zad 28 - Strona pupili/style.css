@@ -1,0 +1,45 @@
+body {
+    font-family: Verdana;
+}
+
+#header {
+    color: white;
+    height: 80px;
+    text-align: center;
+    background-color: #9692B1;
+}
+
+#topL {
+    width: 20%;
+    height: 750px;
+    color: white;
+    background-color: #9692B1;
+}
+
+#top {
+    background-color: #FFF4CC;
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+
+#bottom {
+    background-color: #DBCC93;
+    width: 80%;
+    height: 450px;
+    text-align: center;
+}
+
+#bottom img {
+    border: 4px #9692B1 solid;
+}
+
+#footer {
+    color: white;
+    text-align: right;
+    background-color: #9692B1;
+}
+
+a {
+    color: white;
+}
