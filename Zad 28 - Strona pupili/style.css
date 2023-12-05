@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
 body {
     font-family: Verdana;
 }
@@ -14,6 +18,7 @@ body {
     height: 750px;
     color: white;
     background-color: #9692B1;
+    float: left;
 }
 
 #top {
@@ -21,6 +26,13 @@ body {
     width: 80%;
     height: 300px;
     text-align: center;
+    float: left;
+}
+
+#top img {
+    margin-right: 25px;
+    height: auto;
+    max-width: 200px;
 }
 
 #bottom {
@@ -28,9 +40,11 @@ body {
     width: 80%;
     height: 450px;
     text-align: center;
+    float: left;
 }
 
 #bottom img {
+    margin-top: 20px;
     border: 4px #9692B1 solid;
 }
 
@@ -43,3 +57,4 @@ body {
 a {
     color: white;
 }
+
