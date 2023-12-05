@@ -29,12 +29,6 @@ body {
     float: left;
 }
 
-#top img {
-    margin-right: 25px;
-    height: auto;
-    max-width: 200px;
-}
-
 #bottom {
     background-color: #DBCC93;
     width: 80%;
@@ -58,3 +52,8 @@ a {
     color: white;
 }
 
+.malyobrazek {
+        margin-right: 25px;
+        height: auto;
+        max-width: 200px;
+}
