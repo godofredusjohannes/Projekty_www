@@ -37,11 +37,6 @@ body {
     float: left;
 }
 
-#bottom img {
-    margin-top: 20px;
-    border: 4px #9692B1 solid;
-}
-
 #footer {
     color: white;
     text-align: right;
@@ -56,4 +51,13 @@ a {
         margin-right: 25px;
         height: auto;
         max-width: 200px;
+}
+
+.duzyobrazek {
+    margin-top: 20px;
+    border: 4px #9692B1 solid;
+}
+
+.duzyobrazek:hover {
+    border: gray 4px solid;
 }
