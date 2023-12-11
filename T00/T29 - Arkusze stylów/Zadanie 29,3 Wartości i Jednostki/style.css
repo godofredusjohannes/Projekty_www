@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.header-box {
+    text-align: center;
+    border: 2px solid white;
+    font-size: 30px;
+}
+
+.left {
+    font-size: 20px;
+    margin-left: 10vmin;
+    margin-top: 5vmax;
+    float: left;
+    border: white 2px solid;
+    padding: 20px;
+}
+
+.left p:first-child {
+    font-size: 1.5em;
+}
+
+.left p:nth-child {
+    font-size: 2em;
+}
+
+.left p:last-child {
+    font-size: 25px;
+}
+
+.header-box {
+    width: 50vmin;
+    height: 20vmin;
+    background: red;
+    margin: auto;
+}
+
+.right {
+    float: left;
+    margin-left: 25vmin;
+    margin-top: 5vmax;
+    border: white 2px solid;
+    padding: 20px;
+}

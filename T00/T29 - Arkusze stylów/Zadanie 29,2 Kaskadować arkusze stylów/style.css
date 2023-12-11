@@ -15,3 +15,7 @@ h1 {
 .tekst-class {
     background-color: darkgreen;
 }
+
+#tekst-id {
+    color: red !important;
+}
