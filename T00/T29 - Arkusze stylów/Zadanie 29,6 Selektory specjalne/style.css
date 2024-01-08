@@ -1,0 +1,11 @@
+div p:first-child {
+    text-align: center;
+}
+
+div p:last-child {
+    text-align: right;
+}
+
+p {
+    text-align: left;
+}
