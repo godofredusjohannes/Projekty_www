@@ -1,0 +1,83 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.family {
+    font-family: Cambria;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.style {
+    font-style: italic;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.variant {
+    font-variant: small-caps;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.weight {
+    font-weight: bold;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.size {
+    font-size: 15px;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
+
+.font {
+    font: italic bold 30px arial, sans-serif;
+    background-color: mediumpurple;
+    border-radius: 10px;
+    border: rebeccapurple dashed 3px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 50px;
+    width: 300px;
+    padding: 5px;
+    margin-top: 15px;
+}
