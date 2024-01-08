@@ -1,4 +1,24 @@
-h1 {
-    color: green;
-    background-color: red;
+body {
+    background-color: black;
+    color: white;
+}
+
+.jeden {
+    color: green
+}
+
+.dwa {
+background-color: red;
+}
+
+.trzy {
+    text-decoration: underline;
+}
+
+.cztery {
+font-size: 70px;
+}
+
+.pięć {
+font-size: 15px;
 }
