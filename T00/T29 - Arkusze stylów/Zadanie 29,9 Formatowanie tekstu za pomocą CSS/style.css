@@ -1,0 +1,29 @@
+body {
+    color: yellow;
+    background-color: black;
+}
+
+.align {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.indent {
+    text-indent: 30px;
+    padding-top: 10px;
+}
+
+.decoration {
+    text-decoration: line-through;
+    padding-top: 10px;
+}
+
+.spacing {
+    letter-spacing: 10px;
+    padding-top: 10px;
+}
+
+.transform {
+    text-transform: uppercase;
+    padding-top: 10px;
+}
