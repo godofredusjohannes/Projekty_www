@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 600px;
+    margin-right: 600px;
+}
+
+.sp1 {
+    border: 2px dotted red;
+}
+
+.sp2 {
+    border: 2px dashed red;
+    background-color: lawngreen;
+}
+
+.sp3 {
+}
+
+.sp4 {
+}
+
+.sp5 {
+}
+
+.sp6 {
+}
+
+.sp7 {
+}
+
+.sp8 {
+}
