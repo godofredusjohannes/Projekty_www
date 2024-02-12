@@ -1,0 +1,22 @@
+ul, ul li {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    display: inline;
+    white-space: nowrap;
+}
+ul a:link, ul a:visited {
+    text-decoration: none;
+    background-color: blueviolet;
+    color: black;
+    padding: 4px;
+    border: 2px outset darkviolet;
+}
+ul a:hover {
+    border-style: inset;
+    color: red;
+    padding: 6px 3px 3px 6px;
+}
