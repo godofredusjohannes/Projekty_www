@@ -1,0 +1,45 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 1000px;
+    margin-outside: auto;
+    text-align: center;
+
+}
+
+.logo .menu .footer {
+    background-color: #c0c0c0;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 400px;
+}
+
+.menu {
+    width: 600px;
+}
+
+.banner {
+    background-color: #dddddd;
+    height: 200px;
+}
+
+.main {
+    margin-outside: 50px;
+}
+
+.footer {
+    text-align: right;
+}
+
+a   {
+    color: #555555;
+    margin-outside: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}

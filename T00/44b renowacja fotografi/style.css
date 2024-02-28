@@ -1,0 +1,27 @@
+body {
+    font-family: Arial;
+    color: white;
+    background-color: black;
+}
+
+.header {
+    text-align: center;
+    background-color: black;
+    border-bottom: white dashed;
+}
+
+.content {
+    text-align: center;
+    background-color: darkkhaki;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+img {
+    border: black 2px solid;
+}
