@@ -1,44 +1,36 @@
 body {
-    background-color: #EEEEEE;
+    background-color: #eeeeee;
 }
 
 .container {
     width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-outside: auto;
     text-align: center;
-    margin-top: 10px;
+
 }
 
-.logo, .menu, .footer {
-    background-color: #C0C0C0;
+.logo .menu .footer {
+    background-color: #c0c0c0;
     height: 100px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .logo {
-    float: left;
     width: 400px;
 }
 
 .menu {
-    float: left;
     width: 600px;
 }
 
 .banner {
-    background-color: #DDDDDD;
+    background-color: #dddddd;
     height: 200px;
-    clear: both;
 }
 
 .main {
-    clear: both;
-    margin-right: auto;
-    margin-left: auto;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-outside: 50px;
 }
 
 .footer {
@@ -47,22 +39,7 @@ body {
 
 a   {
     color: #555555;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-outside: 50px;
     font-size: 200%;
     text-decoration: none;
-}
-
-hr {
-    background-color: #C0C0C0;
-    width: 70%;
-    height: 2px;
-}
-
-li {
-    list-style: inside;
-}
-
-label {
-    text-align: left;
 }
