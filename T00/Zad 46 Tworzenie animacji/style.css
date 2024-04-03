@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+}
+
+.header {
+    height: 10%;
+    border-radius: 15%;
+    border: gray 3px solid;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.content {
+    height: 500px;
+    text-align: center;
+    background-color: white;
+    border-radius: 15%;
+    margin-bottom: 10px;
+}
+
+img {
+    margin: 50px;
+}
+
+.footer {
+    height: 10%;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-top: 10px;
+}
