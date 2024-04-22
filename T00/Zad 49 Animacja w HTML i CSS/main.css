@@ -88,6 +88,11 @@ h1
 .photo2
 {
 	width: 450px;
+	transition: all 0.2s ease-out;
+}
+
+.photo2:hover {
+	transform: scale(0.9);
 }
 
 .photo3
