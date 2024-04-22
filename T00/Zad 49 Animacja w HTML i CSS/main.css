@@ -77,8 +77,13 @@ h1
 .photo1
 {
 	width: 450px;
+	transition: all 0.5s ease-in-out;
 }
 
+.photo1:hover {
+	transform: scale(0.5);
+	rotate: 10deg;
+}
 
 .photo2
 {
