@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+
+.container {
+    height: 750px;
+    width: 1200px;
+}
+
+.menu {
+    background-color: aquamarine;
+    height: 620px;
+    width: 160px;
+    padding: 20px;
+    float: left;
+}
+
+.content {
+    text-align: center;
+    background-color: white;
+    width: 1000px;
+    height: 650px;
+    float: left;
+}
+
+.elipsa {
+    text-align: center;
+    background-color: chartreuse;
+    width: 500px;
+    height: 400px;
+    padding-bottom: 150px;
+    padding-top: 110px;
+    padding-left: 250px;
+    padding-right: 250px;
+    float: left;
+}
+
+.footer {
+    text-align: center;
+    background-color: cyan;
+    height: 100px;
+    width: 1200px;
+    float: left;
+    clear: both;
+}
